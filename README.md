@@ -24,13 +24,13 @@ Azure Account with permissions to create Azure Resources (Storage, Azure Data Fa
 
 2. Clone this Git Repository and switch to the new directory (using commands below)
 
-    `git clone https://github.com/kunal333/E2ESynapseDemo.git`
+    `git clone https://github.com/gregbeaumont/E2ESynapseDemo.git`
     
     `cd E2ESynapseDemo`
 
 3. Start script and provide Resource Group Name and User credentials (See example below. **Note:** Don't use the same names as in example below!)
 
-    `PS /home/kunal/E2ESynapseDemo> ./setup.ps1`
+    `PS /home/YOURUSERNAME/E2ESynapseDemo> ./setup.ps1`
 
     `Do you want to use any existing resource(s) or create all resources from scratch?  Enter 1 for NEW or 2 for EXISTING: 1`
 
