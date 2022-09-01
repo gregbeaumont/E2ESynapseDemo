@@ -5,7 +5,7 @@ Write-Host "Script started time:" + $currentTime
 
 $path = Get-Location
 $getDate = Get-Date -Format "MMddyyyy"
-$location = "westus2"
+$location = "westus3"
 
 $UPN = (Get-AzContext).Account.Id
 $principalId = (Get-AzAdUser -UserPrincipalName $UPN).Id
